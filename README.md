@@ -53,6 +53,10 @@ Fine-tune the language model with the Azure AI Foundry to provide consistency in
 2. Azure OpenAI Service – gpt-4o model for response generation
 3. Custom Content Filters – Safety enforcement for HR use cases
 
+## References
+
+Microsoft Learn
+
 ## Demo
 
 ![Fine-Tuned-AI-HR-Assistant-with-Content-Filters-Demo](https://github.com/user-attachments/assets/5588b4af-943c-45e0-b3f1-cf2b033611df)
