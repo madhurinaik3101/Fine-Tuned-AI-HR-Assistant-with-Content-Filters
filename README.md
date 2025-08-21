@@ -55,5 +55,9 @@ Fine-tune the language model with the Azure AI Foundry to provide consistency in
 
 ## Demo
 
-![Fine-Tuned-AI-HR-Assistant-with-Content-Filters-Demo](https://github.com/user-attachments/assets/e0aa9a84-38c5-4b21-8ad9-ded3ad8707c3)
+![Fine-Tuned-AI-HR-Assistant-with-Content-Filters-Demo](https://github.com/user-attachments/assets/5588b4af-943c-45e0-b3f1-cf2b033611df)
+
+FULL-DEMO-LINK: https://drive.google.com/drive/folders/1fertdHXR2uJ_jpRfZ7S8qI_dwrmNBDv-?usp=drive_link
+
+
 
