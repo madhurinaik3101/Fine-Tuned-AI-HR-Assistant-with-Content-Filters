@@ -1,4 +1,4 @@
-# RAG-based-AI-Assistant-for-HR
+# Fine-Tuned-AI-HR-Assistant-with-Content-Filters
 
 ## Table of Contents
 
@@ -12,41 +12,31 @@
 
 ## Overview
 
-A RAG-based AI Assistant built with Azure AI Foundry that combines vector search and LLMs to deliver accurate, context-aware answers to HR-related employee queries. Trained on synthetic internal HR data for a fictitious multinational bank, the assistant acts as a trusted knowledge companion, reducing HR workload and improving employee support efficiency.
+HRWise is a fine-tuned, enterprise-ready AI assistant that helps employees of a fictitious international bank navigate HR policies, benefits, and internal processes with consistent, compliant, and context-aware responses. Unlike generic assistants that provide vague or misaligned answers, HRWise is trained on synthetic internal HR documentation to mirror the organization’s language and standards, ensuring reliable guidance every time.
+
+Built with Azure AI Foundry, HRWise leverages fine-tuning of GPT models, prompt engineering, and content filters to promote responsible AI use and prevent potential harm. This project showcases how enterprises can create domain-specific assistants that combine accuracy, compliance, and conversational intelligence for real-world HR scenarios.
 
 ## Situation
 
-Employees often face challenges when seeking quick answers to common HR questions, such as onboarding processes, leave planning, tax filing, and workplace reporting.
-Traditionally, this requires HR intervention, which can be time-consuming, repetitive, and inefficient.
-A context-aware AI Assistant provides instant, accurate responses grounded in official HR documentation—helping employees self-serve while reducing the load on HR staff.
+I was inspired by how companies like Workday and Oracle use AI to streamline HR operations, but I wanted something more precise and aligned with an organization’s internal voice. I envisioned a solution where an AI assistant could understand HR policies, procedures, and employee queries in the exact language of the company—consistent, compliant, and context-aware. 
+
+By fine-tuning GPT models with synthetic internal HR documentation from a fictitious international bank and layering in content filters, the goal was to create a responsible AI system that provides accurate guidance while safeguarding against harmful or inappropriate outputs. Instead of being a generic HR bot, it acts like a trusted, well-informed HR representative available 24/7.
 
 ## Task 
 
-Design and implement a Retrieval-Augmented Generation (RAG) based AI Assistant that can:
-1. Ingest and index HR documentation.
-2. Retrieve relevant information and ground responses in trusted company knowledge.
-3. Provide multi-turn, context-aware support for employees.
+Fine-tune the language model with the Azure AI Foundry to provide consistency in the desired behavior and add content filters to promote responsible use of AI and prevent any potential harm. 
 
 ## Action
 
-1. Used the Azure AI Foundry portal to create Azure AI Foundry Resources and for Model Deployments.
-2. Applied Ada-002 Embedding Model to vectorize HR documents and created a vector + keyword index for semantic retrieval.
-3. Integrated the GPT-4o model to generate natural, conversational answers grounded in retrieved context.
-4. Implemented the RAG pipeline via Azure OpenAI SDK to handle ingestion, retrieval, and response generation.
-5. Applied prompt engineering techniques to improve accuracy and reduce hallucinations.
+1. Create a Synthetic Dataset containing the HR 
+
 
 ## Result
-
-1. Reduced HR team workload by automating common employee questions.
-2. Delivered faster, accurate, and reliable answers compared to generic assistants.
-3. Demonstrated enterprise-ready deployment with Azure AI Foundry.
-4. Showcased how RAG enhances LLMs with domain-specific knowledge
 
 ## Technologies Used
 
 1. Azure AI Foundry – Model deployment & orchestration
-2. Azure Cognitive Search – Vector + keyword index for retrieval
-3. Azure OpenAI Service – gpt-4o model for response generation
+2. Azure OpenAI Service – gpt-4o model for response generation
 4. Ada-002 Embedding Model – Document embeddings
 5. Python SDKs – Integration and client application
 
